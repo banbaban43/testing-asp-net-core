@@ -1,0 +1,25 @@
+@model MyWebApp.Models.Student
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label>Course</label>
+        <input asp-for="Course" />
+        <span asp-validation-for="Course"></span>
+    </div>
+
+    <button type="submit">Save</button>
+</form>

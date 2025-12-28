@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MyWebApp.Models.Student>
+
+<h1>Students</h1>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No students found.</p>
+}
+else
+{
+    <table>
+        <tr><th>ID</th><th>Name</th></tr>
+        @foreach (Student student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+            </tr>
+        }
+    </table>
+}
