@@ -4007,19 +4007,19 @@
     ]
   },
   "packageFolders": {
-    "/home/ban/.nuget/packages/": {}
+    "/Users/austinulep/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ban/Projects/WebDev/MyWebApp/MyWebApp.csproj",
+      "projectUniqueName": "/Users/austinulep/Documents/GitHub/testing-asp-net-core/MyWebApp.csproj",
       "projectName": "MyWebApp",
-      "projectPath": "/home/ban/Projects/WebDev/MyWebApp/MyWebApp.csproj",
-      "packagesPath": "/home/ban/.nuget/packages/",
-      "outputPath": "/home/ban/Projects/WebDev/MyWebApp/obj/",
+      "projectPath": "/Users/austinulep/Documents/GitHub/testing-asp-net-core/MyWebApp.csproj",
+      "packagesPath": "/Users/austinulep/.nuget/packages/",
+      "outputPath": "/Users/austinulep/Documents/GitHub/testing-asp-net-core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ban/.nuget/NuGet/NuGet.Config"
+        "/Users/austinulep/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4076,12 +4076,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4090,7 +4084,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
